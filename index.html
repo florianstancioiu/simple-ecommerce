@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Ecommerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Ecommerce</h1>
+      </div>
+      <div>
+        <div class="cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="number-of-items">5</p>
+          <div class="cart-content">
+            <div class="cart-items-wrapper">
+              <em>Items:</em> <span class="cart-items">Adidas shoes x 5</span>
+            </div>
+            <div class="cart-total-wrapper">
+              <em>Total:</em> <span class="cart-total">100 euro</span>
+            </div>
+            <div class="clear-cart">
+              <i class="fa-solid fa-trash"></i> Clear Cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="slider">
+        <div class="main-image-wrapper">
+          <img
+            class="main-image"
+            src="images/shoe-1.jpg"
+            alt=""
+            class="thumbnail"
+          />
+        </div>
+        <div class="thumbnails">
+          <img
+            class="active"
+            src="images/shoe-1.jpg"
+            alt=""
+            class="thumbnail"
+          />
+          <img src="images/shoe-3.jpg" alt="" class="thumbnail" />
+          <img src="images/shoe-4.jpg" alt="" class="thumbnail" />
+          <img src="images/shoe-5.jpg" alt="" class="thumbnail" />
+        </div>
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ex,
+          eius blanditiis iure distinctio minus ipsum sunt assumenda architecto
+          reiciendis deserunt molestias magnam. Illo in voluptatem quibusdam!
+          Porro, praesentium atque?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ex,
+          eius blanditiis iure distinctio minus ipsum sunt assumenda architecto
+          reiciendis deserunt molestias magnam. Illo in voluptatem quibusdam!
+          Porro, praesentium atque?
+        </p>
+
+        <h3 class="product-wrapper">
+          Product: <span class="product-title">Adidas shoes</span>
+        </h3>
+
+        <h3 class="price-wrapper">Price: <span class="price">25</span> euro</h3>
+
+        <div class="value-wrapper">
+          <div class="decrease-box">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+          <div class="value-box">0</div>
+          <div class="increase-box">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+    </main>
+  </body>
+</html>
